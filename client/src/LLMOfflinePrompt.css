@@ -1,0 +1,70 @@
+.llm-offline-prompt {
+    min-width: 350px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 100vh;
+    /* Set a fixed height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+
+}
+
+.llm-offline-prompt h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.llm-offline-prompt form {
+    margin-bottom: 20px;
+}
+
+.llm-offline-prompt label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.llm-offline-prompt textarea {
+    width: calc(100% - 22px);
+    /* Adjust for padding */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.llm-offline-prompt button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.llm-offline-prompt button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.llm-response {
+    margin-top: 20px;
+
+}
+
+.llm-response h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
