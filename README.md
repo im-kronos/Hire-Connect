@@ -14,11 +14,11 @@ npm install
 cd client
 npm install
 
-cd..
+cd ..
 cd api
 npm start
 
-cd..
+cd ..
 cd client
 npm run dev
 ```
