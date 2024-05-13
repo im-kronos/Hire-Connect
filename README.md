@@ -7,7 +7,8 @@ Download the zip file
 Then unzip it
 
 Open terminal 
-`cd api    
+``` 
+cd api    
 npm install
 
 cd client
@@ -19,7 +20,8 @@ npm start
 
 cd..
 cd client
-npm run dev`
+npm run dev
+```
 
 ### Features:
 - **User Authentication**: Secure user authentication and authorization using JWT tokens.
