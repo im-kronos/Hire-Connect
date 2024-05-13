@@ -2,6 +2,25 @@
 
 **hireconnect** is a full-stack web application built with React.js, Node.js, Express, and MongoDB. It facilitates real-time communication between users, allowing them to connect, chat, and share files securely. The application includes features like user authentication using JWT tokens, message history, online/offline status indicators, and integration with a language model (LLM) API for offline user interactions.
 
+### TO use this project follow this Instruction:
+Download the zip file
+Then unzip it
+
+Open terminal 
+cd api
+npm install
+
+cd client
+npm install
+
+cd..
+cd api
+npm start
+
+cd..
+cd client
+npm run dev
+
 ### Features:
 - **User Authentication**: Secure user authentication and authorization using JWT tokens.
 - **Real-Time Messaging**: WebSocket-based real-time messaging system for instant communication.
