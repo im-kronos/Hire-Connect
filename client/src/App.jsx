@@ -6,7 +6,7 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:4040';
+  axios.defaults.baseURL = 'https://hire-connect.onrender.com';
   axios.defaults.withCredentials = true;
   return (
     <div>
